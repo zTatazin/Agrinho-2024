@@ -95,11 +95,14 @@ a:hover {
 /* imagem de fundo */
 
 .backgroundimage {
+  height: 270px;
+}
+
+.backgroundimage img {
   width: 100%;
   height: 300px;
   transition: .5s;
-  background-image: url(/assets/img/solclaro.jpg);
-  background-size: cover;
+  object-fit: cover; 
   background-position: center 70%;
 }
 
@@ -109,7 +112,6 @@ a:hover {
 .container.active {
   background-color: #2C2C2C;    
   .backgroundimage {
-    background-image: url(/assets/img/solescuro2.jpg);
     transition: .5s;
   }
 
