@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site para praticidade de vendas de produtos do campo">
+    <meta name="author" content="Otávio Miguel">
+
+    <!-- Link css -->
+    <link rel="stylesheet" href="assets/css/paginas/index/styles.css">
+    <link rel="stylesheet" href="assets/css/paginas/responsivo/mobile.css">
+
+    <!-- Link fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <!-- Title main -->
+    <title>Agrinho 2024</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <nav class="navegation">
+            <a class="logo" href="index.html">Hortaliças do Vale</a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="mobile-menu">
+              <div class="nav-icon">
+                <span></span>
+              </div>
+            </label>
+            <ul class="nav-list">
+              <li><a href="#home" id="link-home">&#127968; Home</a></li>
+              <li><a href="#produtos" id="link-produtos">&#128230; Produtos</a></li>
+              <li><a href="#receitas" id="link-receitas">&#128195; Receitas</a></li>
+              <li><a href="sobre.html" id="link-sobre">Sobre nós</a></li>
+            </ul>
+            <ul class="header-menu">
+              <li><a href="#home" id="link-home">&#127968; Home</a></li>
+              <li><a href="#produtos" id="link-produtos">&#128230; Produtos</a></li>
+              <li><a href="#receitas" id="link-receitas">&#128195; Receitas</a></li>
+              <li><a href="sobre.html" id="link-sobre">Sobre nós</a></li>
+            </ul>
+            <div>
+              <div class="btn" onclick="toggleEmoji(this)"></div>
+            </div>
+        </nav>
+    </header>
+
+    <script src="assets/js/mobile-navbar.js"></script>
+
+    <section class="container">
+        <div class="backgroundimage" id="home">
+        </div>
+            <div class="brevesobre">
+                <h1>Hortaliças do Vale</h1>
+                <hr class="styled-line">
+                <p>Na <b>Hortaliças do Vale</b>, a qualidade de nossos produtos é nossa prioridade. Reconhecemos que oportunidades de emprego são uma necessidade constante, e nossa empresa se dedica a oferecer o máximo de oportunidades de trabalho para os moradores de toda a região.</p>
+                <p>Além disso, estamos comprometidos com práticas agrícolas sustentáveis que respeitam o meio ambiente e promovem a biodiversidade. Acreditamos que, ao cuidar da terra e de nossas comunidades, podemos fornecer alimentos frescos e saudáveis enquanto construímos um futuro mais verde e próspero para todos.</p>
+            </div>
+            <div class="produtos" id="produtos">
+                <hr class="styled-line">
+                <br><br>
+                <h1>Conheça nossos</h1>
+                <h2>Produtos</h2>
+            </div>
+            
+            <div class="slider">
+                <div class="slides">
+                    <!-- Slides Images -->
+                    <div class="slide first">
+                        <img src="assets/img/pimentao.png" alt="Pimentão" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/banana.png" alt="Banana" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/repolhoroxo.png" alt="Repolho Roxo" />
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/manga.png" alt="Manga" />
+                    </div>
+                    <!-- Fim Slides Images -->
+                </div>
+            </div>
+
+            <main>
+                <div class="saibamais">
+                    <button onclick="window.location.href='produtos.html'">Veja todos os produtos</button>
+                </div>
+
+                <section class="receitas" id="receitas">
+                    <hr class="styled-line">
+                    <h1>Experimente nossas</h1>
+                    <h2>Receitas</h2>
+                    <div class="livroreceitas">
+                        <div class="receita bolo">
+                            <button class="saiba-mais">Saiba Mais</button>
+                            <h6>Bolo de Cenoura</h6>
+                            <img src="assets/img/bolodecenoura.png" alt="Bolo de cenoura">
+                            <p class="paragrafo">
+                                • Bata 3 cenouras médias picadas, 3 ovos e 1 xíc. de óleo.<br>
+                                • Misture 2 xíc. de açúcar, 2 xíc. de farinha de trigo e 1 colher de fermento. Adicione a mistura e mexa bem. <br>
+                                • Despeje em uma forma untada e enfarinhada, asse em forno pré-aquecido a 180°C por 40-45 minutos.<br>    
+                            </p>
+                        </div>
+
+                        <div class="receita">
+                            <button class="saiba-mais">Saiba Mais</button>
+                            <h6>Panqueca de Banana</h6>
+                            <img src="assets/img/panqueca.png" alt="Panqueca">
+                            <p class="paragrafo">
+                                • Amasse 1 banana madura em uma tigela.<br>
+                                • Adicione 2 ovos e misture bem. Aqueça uma frigideira antiaderente em fogo médio e unte levemente com óleo.<br>
+                                • Coloque pequenas porções da massa na frigideira, cozinhe até dourar dos dois lados. Sirva as panquecas quentes.
+                        </div>
+
+                        <div class="receita">
+                            <button class="saiba-mais">Saiba Mais</button>
+                            <h6>Batata na Airfryer</h6>
+                            <img src="assets/img/batata-airfryer.png" alt="Batata Airfryer">
+                            <p class="paragrafo">
+                                • Lave e corte 3 batatas grandes em tiras, sal e pimenta a gosto.<br>
+                                • Tempere com 1 colher de sopa de azeite de oliva<br>
+                                • Preaqueça a airfryer a 200°C por 5 minutos<br>
+                                • Coloque as batatas na cesta em uma única camada e cozinhe a 200°C por 15-20 minutos. <br>
+                            </p>
+                        </div>
+
+                        <div class="receita">
+                            <button class="saiba-mais">Saiba Mais</button>
+                            <h6>Sorvete de Manga</h6>
+                            <img src="assets/img/sorvete.png" alt="Sorvete">
+                            <p class="paragrafo">
+                                • Corte 2 mangas maduras em pedaços, congele-os por pelo menos 4 horas.  <br>
+                                • Bata os pedaços congelados com 1/2 xícara de leite condensado até obter uma mistura cremosa.<br>
+                                • Coloque em um recipiente e leve ao freezer por mais 2 horas antes de servir.<br>    
+                            </p> 
+                        </div>
+                    </div>
+                </section>
+
+                <div class="sustentabilidade">
+                    <hr class="styled-line">
+                    <h1>Sustentabilidade</h1>
+                    <br>
+                    <img src="assets/img/sustentabilidade.png" alt="Imagem de Sustentabilidade">
+                    <p>Escolher os produtos da Hortaliças do Vale é optar por uma alimentação consciente e sustentável. Junte-se a nós nessa jornada em direção a um futuro mais verde e saudável.</p>
+                </div>
+            </main>      
+    </section>
+
+    <footer>
+		<div class="marca">
+			<a href="#home">
+				<img src="assets/img/rodape.png" alt="foto-rodape"></a>
+			<p>Cultivando Oportunidades, Colhendo Sabor</p>
+		</div>
+		<div class="links">
+			<strong class="titulo">Links rápidos</strong>
+			<div>
+				<a href="#home">Home</a>
+				<a href="#produtos">Produtos</a>
+				<a href="#receitas">Receitas</a>
+				<a href="sobre.html">Sobre Nós</a>
+            </div>
+		</div>
+		<div class="info">
+			<strong class="titulo">Encontre-nos</strong>
+			<p>WhatsApp: <a href="https://wa.me/5543998211269" target="_blank">(43) 9 9821-1269</a></p>
+			<p>Email: <a href="mailto:otavio.araujo.oliveira@escola.pr.gov.br">otavio.araujo.oliveira@escola.pr.gov.br</a></p>
+        </div>
+	</footer>
+    <div id="copyright">
+		Agrinho 2024 - Copyright ©2024 Hortaliças do Vale
+	</div>
+
+    <script src="assets/js/scripts.js" defer></script>
+    <script src="assets/js/linguagens.js"></script>
+</body>
+</html>

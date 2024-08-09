@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link css -->
+    <link rel="stylesheet" href="assets/css/paginas/produtos/produtos.css">
+    <link rel="stylesheet" href="assets/css/paginas/responsivo/mobile.css">
+
+    <!-- Link fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <!-- Title main -->
+    <title>Agrinho 2024</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navegation">
+            <a class="logo" href="index.html">Hortaliças do Vale</a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="mobile-menu">
+              <div class="nav-icon">
+                <span></span>
+              </div>
+            </label>
+            <ul class="nav-list">
+              <li><a href="index.html" id="link-home">&#127968; Home</a></li>
+              <li><a href="#produtos" id="link-produtos">&#128230; Produtos</a></li>
+              <li><a href="index.html#receitas" id="link-receitas">&#128195; Receitas</a></li>
+              <li><a href="sobre.html" id="link-sobre">Sobre nós</a></li>
+            </ul>
+            <ul class="header-menu">
+              <li><a href="index.html" id="link-home">&#127968; Home</a></li>
+              <li><a href="#produtos" id="link-produtos">&#128230; Produtos</a></li>
+              <li><a href="index.html#receitas" id="link-receitas">&#128195; Receitas</a></li>
+              <li><a href="sobre.html" id="link-sobre">Sobre nós</a></li>
+            </ul>
+            <div>
+              <div class="btn" onclick="toggleEmoji(this)"></div>
+            </div>
+          </nav>
+    </header>
+
+    <script src="assets/js/mobile-navbar.js"></script>
+
+    <section class="container">
+      <div class="backgroundimage" id="home"></div>
+
+        <main>
+          <div class="brevesobre">
+            <h1>Hortaliças do Vale</h1>
+            <hr class="styled-line">
+            <p>Bem-vindo à nossa seção de produtos! Aqui você encontrará uma variedade cuidadosamente selecionada de itens frescos e de alta qualidade.
+            Explore nossa gama de frutas, legumes e verduras. Se você busca qualidade e sabor, está no lugar certo. Nossos produtos são cultivados com o máximo cuidado e comprometimento com a sustentabilidade.</p>
+            <p>Aproveite para conhecer nossas novidades e ofertas exclusivas. Estamos aqui para oferecer o melhor para você e sua família!</p>
+          </div>
+          <div class="produtos" id="produtos">
+            <hr class="styled-line">
+            <br><br>
+            <h1>Nossos Produtos</h1>
+            <h2>Disponíveis</h2>
+          </div>
+          <!-- Slots de Produtos -->
+          <div class="box-produtos">
+              <div class="itens-produtos">
+                  <div class="FLV1">
+                      <div class="produtos-FLV">
+                          <img src="assets/img/banana.png">
+                      </div>
+                      <h2>Banana Nanica</h2>
+                      <span>R$ 4,98 /Kg</span>
+                  </div>
+                  <div class="FLV1">
+                      <div class="produtos-FLV">
+                          <img src="assets/img/batata.png">
+                          <div class="product-sale">
+                          <div class="sell">OFERTA</div>
+                          </div>
+                      </div>
+                      <h2>Batata Inglesa</h2>
+                      <span>R$ 6,99 /Kg</span>
+                  </div>
+                  <div class="FLV1">
+                      <div class="produtos-FLV">
+                          <img src="assets/img/cebola.png">
+                      </div>
+                      <h2>Cebola</h2>
+                      <span>R$ 7,39 /Kg</span>
+                  </div>
+                  <div class="FLV1">
+                      <div class="produtos-FLV">
+                          <img src="assets/img/cenoura.png">
+                      </div>
+                      <h2>Cenoura</h2>
+                      <span>R$ 1,49 /100g</span>
+                  </div>
+                  <div class="FLV1">
+                      <div class="produtos-FLV">
+                          <img src="assets/img/limao.png">
+                      </div>
+                      <h2>Limão Tahiti</h2>
+                      <span>R$ 4,98 /Kg</span>
+                  </div>
+                  <div class="FLV1">
+                      <div class="produtos-FLV">
+                          <img src="assets/img/manga.png">
+                      </div>
+                      <h2>Manga Tommy</h2>
+                      <span>R$ 8,98 /Kg</span>
+                  </div>
+                  <div class="FLV1">
+                      <div class="produtos-FLV">
+                          <img src="assets/img/pimentao.png">
+                      </div>
+                      <h2>Pimentão Verde</h2>
+                      <span>R$ 12,39 /Kg</span>
+                  </div>
+                  <div class="FLV1">
+                      <div class="produtos-FLV">
+                        <img src="assets/img/repolhoroxo.png">
+                        <div class="product-sale">
+                        <div class="sell">OFERTA</div>
+                        </div>
+                      </div>
+                      <h2>Repolho Roxo</h2>
+                      <span>R$ 6,49 Uni.</span>
+                  </div>
+              </div>
+          </div>
+        </main>
+    </section>
+   
+    <footer>
+      <div class="marca">
+        <a href="index.html">
+          <img src="assets/img/rodape.png" alt="foto-rodape"></a>
+        <p>Cultivando Oportunidades, Colhendo Sabor</p>
+      </div>
+      <div class="links">
+        <strong class="titulo">Links rápidos</strong>
+        <div>
+          <a href="index.html">Home</a>
+          <a href="#produtos">Produtos</a>
+          <a href="index.html#receitas">Receitas</a>
+          <a href="sobre.html">Sobre Nós</a>
+        </div>
+      </div>
+    </div>
+		<div class="info">
+			<strong class="titulo">Encontre-nos</strong>
+			<p>WhatsApp: <a href="https://wa.me/5543998211269" target="_blank">(43) 9 9821-1269</a></p>
+			<p>Email: <a href="mailto:otavio.araujo.oliveira@escola.pr.gov.br">otavio.araujo.oliveira@escola.pr.gov.br</a></p>
+        </div>
+    </footer>
+      <div id="copyright">
+      Agrinho 2024 - Copyright ©2024 Hortaliças do Vale
+    </div>
+      <script src="assets/js/produtos.js" defer></script>
+  </body>
+  </html>
